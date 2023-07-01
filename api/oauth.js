@@ -23,6 +23,7 @@ export default async function handler(req, res) {
 
     response.on("data", (chunk) => {
       data += chunk;
+      data += "1";
     });
 
     response.on("end", () => {
