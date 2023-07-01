@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   // res.json(response.data);
 
   const options = {
-    hostname: "api.meet48.xyz",
+    hostname: "https://api.meet48.xyz",
     path: "/wallet/api/v1/user/getPublicKey",
     method: "POST",
   };
