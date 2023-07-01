@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   // );
 
   const options = {
-    hostname: "https://mcs.snssdk.com",
+    hostname: "mcs.snssdk.com",
     path: "/list",
     method: "POST",
   };
