@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://api.twitter.com/$1"
+    }
+  ]
+}
